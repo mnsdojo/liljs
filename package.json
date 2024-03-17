@@ -1,0 +1,21 @@
+{
+  "name": "liljs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --cls src/index.ts",
+    "build":"tsc -w",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2",
+    "vitest": "^1.4.0"
+  }
+}
